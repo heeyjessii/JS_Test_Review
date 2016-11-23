@@ -12,18 +12,19 @@ var hero = {
   power : 25
 };
 
-//function that has one parameter
+//function for King being worthy
 function swordInTheStone(worthy){
   if (worthy == "Arthur"){
     console.log("We have found our King " + worthy)
   }
-  else if(worthy == Bob) {
-    console.log("We must keep searching, for" + worthy +" is unworthy")
+  else if(worthy == "Jassica") {
+    console.log("We must keep searching, for " + worthy +" is unworthy")
   }
 }
 
 //invoke function and pass knight variable
 swordInTheStone("Arthur");
+swordInTheStone("Jassica");
 
 //Function for King and Queen
 function trueLove(king, queen){
@@ -31,11 +32,12 @@ function trueLove(king, queen){
     console.log("On this day, our " + king + " and " + queen + " shall rule happily ever after")
   }
   else if(queen == "Rebecca" && king == "Bob"){
-    console.log("We must keep searching for true love must reign over Camelot")
+    console.log("We must keep searching for " + trueLove + " must reign over Camelot")
   }
 }
 
 trueLove("Arthur", "Guinevere");
+trueLove("Rebecca", "Bob");
 
 //function for Merlin and Monster
 function epicBattle(wizard, enemy, power){
