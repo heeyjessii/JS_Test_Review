@@ -28,7 +28,7 @@ swordInTheStone("Arthur");
 //Function for King and Queen
 function trueLove(king, queen){
   if(queen == "Guinevere" && king == "Arthur") {
-    console.log("On this day, our" + king + " and" + queen + " shall rule happily ever after")
+    console.log("On this day, our " + king + " and " + queen + " shall rule happily ever after")
   }
   else if(queen == "Rebecca" && king == "Bob"){
     console.log("We must keep searching for true love must reign over Camelot")
